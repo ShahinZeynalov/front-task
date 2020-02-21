@@ -427,15 +427,18 @@ nav li a .active{
 .item .content {
   color:#353535;
 }
+
 .item .content .date{
   color: #828282;
   margin: 0;
   padding: 0;
+  padding-left: 10px
 }
 .items li{
   list-style: none;
   position: relative;
   text-align: justify;
+  color: red
 
 }
 
@@ -447,6 +450,12 @@ nav li a .active{
 
 
 
+
+}
+
+.item .content p{
+  margin: 0;
+  padding: 10px
 }
 .item-processing{
   background-color:#F05A28;
